@@ -1,0 +1,43 @@
+@import url(./mobile.css);
+
+@media screen and (min-width: 540px) {
+    html {
+        font-size: 16px;
+    }
+
+    .nav__list {
+        display: none;
+    }
+
+    .about_as .container {
+        display: grid;
+        gap: 10px;
+        grid-template: repeat(2, auto) /repeat(2, 50%);
+    }
+
+    .cars .container, .rent .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .car {
+        width: 48%;
+        height: 42vh;
+    }
+
+    .car img {
+        height: 72%;
+    }
+
+    .map {
+        width: 60%;
+    }
+
+    footer .container {
+        width: 70%;
+    }
+}
+    
+

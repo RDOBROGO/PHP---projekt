@@ -1,0 +1,51 @@
+@import url(./mobile.css);
+@import url(./tablet.css);
+
+@media screen and (min-width: 1024px) {
+    html {
+        font-size: 20px;
+    }
+
+    .nav__burger_menu {
+        display: none;
+    }
+
+    .nav__list {
+        display: flex;
+    }
+    
+    .container {
+        width: 80%;
+    }
+
+    .car {
+        height: 60vh;
+    }
+
+    .car img {
+        height: 70%;
+    }
+
+    nav .container {
+    display: flex;
+    }
+
+    nav .nav__list {
+        flex-direction: row;
+        }
+
+}
+@media screen and (min-width: 1440px) {
+    .container {
+        width: 60%;
+    }
+
+    .car {
+        height: 40vh;
+    }
+
+    .car img {
+        height: 80%;
+    }
+
+}
